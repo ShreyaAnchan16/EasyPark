@@ -1,0 +1,23 @@
+
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!-- Base application theme. -->
+<style name="Base.Theme.EasyPark" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your theme here. -->
+
+    <!-- Set the primary color to black -->
+    <item name="colorPrimary">@android:color/black</item>
+
+    <!-- Set the status bar color to black -->
+    <item name="android:statusBarColor">@android:color/black</item>
+
+    <!-- Set the navigation bar color to black -->
+    <item name="android:navigationBarColor">@android:color/black</item>
+
+    <!-- Set other colors as needed -->
+    <!-- <item name="colorPrimaryContainer">@android:color/black</item> -->
+    <!-- <item name="colorOnPrimary">@android:color/white</item> -->
+</style>
+
+<style name="Theme.EasyPark" parent="Base.Theme.EasyPark" />
+</resources>

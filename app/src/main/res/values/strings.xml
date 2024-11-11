@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">EasyPark</string>
+    <string name="login">Login Here</string>
+    <string name="email">Email</string>
+    <string name="email_hint">Enter Your Email</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Enter Your Password</string>
+    <string name="login_btn">Login</string>
+    <string name="signup_txt">Don\'t have any account? Sign Up</string>
+    <string name="forgot_pass">Forgot Password</string>
+    <string name="sign_up">Create new account</string>
+    <string name="signup_name">Name</string>
+    <string name="signup_hint_name">Enter Your Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="signup_phNum_hint">Enter Your Number</string>
+    <string name="signup_register">Register</string>
+    <string name="confirm_password">Confirm Your Password</string>
+    <string name="signup_confirmpass">Confirm Password</string>
+    <string name="sign_in_text">Already have any account? Sign In</string>
+    <string name="title_home">Home</string>
+    <string name="title_bookings">My Bookings</string>
+    <string name="title_settings">Settings</string>
+    <string name="settingsTxt">SETTINGS</string>
+    <string name="username_text">Shreya</string>
+    <string name="settingno_text">+91-1234567891</string>
+    <string name="helptext">Help and Support</string>
+    <string name="logouttext">Logout</string>
+    <string name="n1">Enter Vehicle Number</string>
+    <string name="e1">Vehicle Number</string>
+    <string name="n2">Choose Date</string>
+    <string name="n3">Start Time</string>
+    <string name="e3">Choose Start Time</string>
+    <string name="n4">End Time</string>
+    <string name="e4">Choose End Time</string>
+    <string name="proceed">Proceed</string>
+    <string name="info1">bookingInfo</string>
+    <string name="info">Booking information</string>
+    <string name="parking">MIT Parking-1\n Date:    Time:</string>
+    <string name="title">FORGET PASSWORD</string>
+    <string name="email1">Enter Your Email</string>
+    <string name="otp">Enter OTP</string>
+    <string name="password1">Enter New Password</string>
+    <string name="confirm">Confirm Your Password</string>
+    <string name="supportname">Name</string>
+    <string name="helpname">Enter Your Name</string>
+    <string name="help_btn">Submit\n</string>
+    <string name="payment_completed">Payment successful</string>
+
+    <string-array name="location_type_array">
+        <item>Bike</item>
+        <item>Car</item>
+    </string-array>
+</resources>

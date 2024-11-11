@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:id="@+id/settingGroup"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/black">
+
+
+        <TextView
+            android:id="@+id/settingTxt"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/settingsTxt"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/settingwlayout"
+        android:layout_width="match_parent"
+        android:layout_height="800dp"
+        android:layout_below="@id/settingGroup"
+        android:background="@drawable/rounded_settingbelow"
+        android:paddingLeft="60dp"
+        android:paddingRight="60dp">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/settingnameGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_name"
+                android:padding="10dp">
+
+
+                <TextView
+                    android:id="@+id/settingnameTxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/username_text"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/settingnameEditText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@null"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:text="@string/settingno_text"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ButtonGroup"
+                android:layout_below="@+id/settingnameGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/rounded_name"
+                android:padding="10dp">
+
+
+                <Button
+                    android:id="@+id/HelpSuppButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="@string/helptext" />
+
+                <Button
+                    android:id="@+id/LogoutButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/black"
+                    android:textColor="@color/white"
+                    android:text="@string/logouttext" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/roundedLayout"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:padding="11dp"
+        android:layout_above="@+id/settingwlayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-88dp"
+        android:background="@drawable/circle_shape">
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="149dp"
+            android:layout_height="149dp"
+            android:background="@drawable/circle_shape"
+            android:clipToOutline="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img"
+            tools:ignore="UnusedAttribute" />
+    </RelativeLayout>
+
+    <!-- Bottom Navigation View placed at the bottom of the screen -->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        app:itemIconTint="@drawable/bottom_nav_item_color_selector"
+        app:itemTextColor="@drawable/bottom_nav_item_color_selector"
+        app:menu="@menu/bottom_navigation_menu" />
+
+</RelativeLayout>
